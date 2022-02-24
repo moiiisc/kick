@@ -1,0 +1,7 @@
+--variables--
+local quitGameButton = script.Parent.QuitGameButton
+
+--scripts--
+quitGameButton.MouseButton1Click:Connect(function()
+ game.Players.LocalPlayer:Kick("Quit Game")
+end)
